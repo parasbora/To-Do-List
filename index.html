@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./assets/receipt_long_white_24dp.svg">
+    <link rel="stylesheet" href="/to-do list/style.css">
+    <title>To-Do List</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="title-switch">
+            <div class=title>TO-DO LIST</div>
+
+        </div>
+        <form class="input">
+            <input class="input-field" placeholder="Add task here..." value=""></input>
+            <button class="submit" type="button"><svg width="40" height="40" viewBox="0 0 46 46" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M40.5 0.5H5.5C2.725 0.5 0.5 2.75 0.5 5.5V40.5C0.5 43.25 2.725 45.5 5.5 45.5H40.5C43.25 45.5 45.5 43.25 45.5 40.5V5.5C45.5 2.75 43.25 0.5 40.5 0.5ZM35.5 25.5H25.5V35.5H20.5V25.5H10.5V20.5H20.5V10.5H25.5V20.5H35.5V25.5Z" fill="#2C5381"/>
+                </svg>
+                </button>
+        </form onsubmit="return false">
+        <ul class="itemList">
+            <li class="itemCard">
+                <div class="card-title">List Item</div>
+
+                <button class="done update-btns"><svg width="15" height="15" viewBox="0 0 18 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M5.59 10.58L1.42 6.41L0 7.82L5.59 13.41L17.59 1.41L16.18 0L5.59 10.58Z" fill="#ADFF91"/>
+                        </svg>
+                        </button>
+                <button class="delete update-btns"><svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M14 1.41L12.59 0L7 5.59L1.41 0L0 1.41L5.59 7L0 12.59L1.41 14L7 8.41L12.59 14L14 12.59L8.41 7L14 1.41Z" fill="#FF9393"/>
+                        </svg>
+                </button>
+            </li>
+
+        </ul>
+    </div>
+    <script src="./index.js"></script>
+    <!-- <script src="test.js"></script> -->
+</body>
+
+</html>
